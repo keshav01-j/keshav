@@ -102,9 +102,10 @@ function renderHeroContent() {
   }
 
   // Name elements
+  const fullName = (p.name + (p.surname ? ' ' + p.surname : '')).trim();
   const heroName = document.getElementById('heroName');
   if (heroName) {
-    heroName.innerHTML = `I'm <span class="gradient-text">${p.name} ${p.surname}</span>`;
+    heroName.innerHTML = `I'm <span class="gradient-text">${fullName}</span>`;
   }
 
   const navBrandName = document.getElementById('navBrandName');
@@ -114,7 +115,7 @@ function renderHeroContent() {
 
   const footerBrandName = document.getElementById('footerBrandName');
   if (footerBrandName) {
-    footerBrandName.textContent = `${p.name} ${p.surname}`;
+    footerBrandName.textContent = fullName;
   }
 
   // Subtitle

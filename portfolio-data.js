@@ -10,7 +10,7 @@ const PORTFOLIO_DATA = {
   // Personal & Header Information
   personal: {
     name: "Keshav",
-    surname: "Sharma",
+    surname: "",
     role: "Full-Stack Software Engineer & Creative Technologist",
     statusBadge: "Available for new opportunities & freelance contracts",
     email: "keshav.dev.engineer@gmail.com",
@@ -310,7 +310,7 @@ const PORTFOLIO_DATA = {
   // Interactive Terminal Commands Configuration
   terminalCommands: {
     help: "Available commands: [about], [skills], [projects], [experience], [contact], [theme], [clear]",
-    about: "Keshav Sharma - Full-Stack Software Engineer & Creative Technologist specializing in modern cloud web applications, reactive UI systems, and high-performance microservices.",
+    about: "Keshav - Full-Stack Software Engineer & Creative Technologist specializing in modern cloud web applications, reactive UI systems, and high-performance microservices.",
     skills: "Core stack: TypeScript, React, Next.js, Node.js, Python, PostgreSQL, Redis, Docker, AWS, Tailwind CSS.",
     projects: "6 flagship projects loaded: NovaCloud, Synthetix AI, Aura Commerce, PulseVault, Verve Audio, DevSprint. Scroll to the Featured Projects section to inspect details.",
     experience: "4+ years of professional engineering experience across senior frontend and fullstack roles.",
